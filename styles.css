@@ -13,12 +13,40 @@ ul {
   list-style: none;
 }
 
+@media screen and (min-width: 1100px) {
 .navProperties {
   color: #d3d2cb;
   display: inline-block;
   padding-left: 170px;
   font-weight: 900;
   font-family: arial;
+}
+}
+
+@media screen and (max-width: 1100px) {
+.navProperties {
+  color: #d3d2cb;
+  display: inline-block;
+  padding-left: 100px;
+  font-weight: 900;
+  font-family: arial;
+}
+}
+
+@media screen and (max-width: 850px) {
+.navProperties {
+  color: #d3d2cb;
+  display: inline-block;
+  padding-left: 80px;
+  font-weight: 900;
+  font-family: arial;
+}
+}
+
+@media screen and (max-width: 800px) {
+.navProperties {
+  display: none;
+}
 }
 
 #home:hover {
@@ -39,6 +67,13 @@ ul {
   height: 670px;
 }
 
+@media screen and (max-width: 800px) {
+  .title {
+    background-color: white;
+    background-image: none;
+  }
+}
+
 .name {
   color: #d3d2cb;
   font-size: 80px;
@@ -47,9 +82,20 @@ ul {
   margin: 0px;
 }
 
+@media screen and (max-width: 800px) {
+  .name {
+    color: black;
+  }
+}
+
 .description {
   color: #d3d2cb;
   text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .description {
+    color: black;
+  }
 }
 
 .skills {
@@ -120,6 +166,30 @@ ul {
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(5, 1fr)
 }
+
+@media screen and (max-width: 800px) {
+.contact {
+  background-color: white;
+}
+}
+
+@media screen and (max-width: 800px) {
+.skills {
+  background-color: white;
+}
+}
+
+@media screen and (max-width: 800px) {
+.projects {
+  background-color: white;
+}
+}
+
+/*@media screen and (max-width: 800px) {
+.contact {
+  background-color: white;
+}
+}*/
 
 .descriptors {
   grid-column: 1/3;
