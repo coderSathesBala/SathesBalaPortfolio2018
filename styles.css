@@ -85,6 +85,11 @@ ul {
 @media screen and (max-width: 800px) {
   .name {
     color: black;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 100%;
+    padding-top: 250px;
+    margin: 0px;
   }
 }
 
@@ -94,7 +99,7 @@ ul {
 }
 @media screen and (max-width: 800px) {
   .description {
-    color: black;
+    display: none;
   }
 }
 
